@@ -28,6 +28,10 @@
         right: 0;
     }
 
+    #iconcart {
+        display: none;
+    }
+
     #close {
         display: block;
         position: absolute;
@@ -95,5 +99,22 @@
 
     #newsletter .form {
         width: 61%;
+    }
+
+
+    #prodetails {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #prodetails .single-pro-image,
+    #prodetails .single-pro-details {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+
+    #blog {
+        padding: 150px 70px 0 70px;
     }
 }
